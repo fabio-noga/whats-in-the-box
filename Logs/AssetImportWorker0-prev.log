@@ -1,0 +1,548 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 22631.3007; Version 2009; 64bit' Language: 'pt' Physical Memory: 32509 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.7f1-x86_64\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Fabio/Projects/ComputacaoGrafica/ScenesFinal/Scenes
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57073
+Successfully changed project path to: C:/Users/Fabio/Projects/ComputacaoGrafica/ScenesFinal/Scenes
+C:/Users/Fabio/Projects/ComputacaoGrafica/ScenesFinal/Scenes
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 20.75 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.59 ms.
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1-x86_64/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Fabio/Projects/ComputacaoGrafica/ScenesFinal/Scenes/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2414)
+    Vendor:   
+    VRAM:     8038 MB
+    Driver:   31.0.15.4629
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1-x86_64/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000967 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 18.93 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.215 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001054 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 17.96 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Projects\ComputacaoGrafica\ScenesFinal\Scenes\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Projects\ComputacaoGrafica\ScenesFinal\Scenes\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
+
+(Filename: D:/Projects/ComputacaoGrafica/ScenesFinal/Scenes/Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.499 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 1621 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.0 MB.
+System memory in use after: 87.1 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2084.
+Total: 1.192200 ms (FindLiveObjects: 0.119700 ms CreateObjectMapping: 0.030500 ms MarkObjects: 0.997000 ms  DeleteObjects: 0.044300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Cidade/LightingData.asset
+  artifactKey: Guid(d2677d56c9bc55248bc4f3d5993afaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cidade/LightingData.asset using Guid(d2677d56c9bc55248bc4f3d5993afaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316556a4ff812d99fe42f9a77a707863') in 0.025088 seconds
+  Import took 0.027398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Scenes/Cidade/ReflectionProbe-0.exr
+  artifactKey: Guid(bbca5b9cd6c062c46aed8d9e41716d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cidade/ReflectionProbe-0.exr using Guid(bbca5b9cd6c062c46aed8d9e41716d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ff293bfaf5329b754de9444c7d427d') in 0.050420 seconds
+  Import took 0.052205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.783327 seconds.
+  path: Assets/Models/CampoGuerra/textures/Bark_Base_Color(AO).png
+  artifactKey: Guid(cac89769f85fcaa4bbffa36906f4dd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Bark_Base_Color(AO).png using Guid(cac89769f85fcaa4bbffa36906f4dd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03c434ff258621773fc651f5d37438d') in 0.051627 seconds
+  Import took 0.053809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Models/CampoGuerra/textures/Water_Roughness.png
+  artifactKey: Guid(5abdc644147b5b348acae50518cdb92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Water_Roughness.png using Guid(5abdc644147b5b348acae50518cdb92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '619e9e738a97cd82bdc14510d0774194') in 0.045247 seconds
+  Import took 0.047070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Models/CampoGuerra/textures/Other_Wood.001_Roughness.png
+  artifactKey: Guid(4613541cc7f79c74fb11a752087e5472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Other_Wood.001_Roughness.png using Guid(4613541cc7f79c74fb11a752087e5472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a968e4572209e47015f6cf185ccf09b') in 0.041238 seconds
+  Import took 0.043064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Models/CampoGuerra/textures/RoofTiles_Base_Color(AO).png
+  artifactKey: Guid(29029acf5eac97b47b8e5fdd6a1c84eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/RoofTiles_Base_Color(AO).png using Guid(29029acf5eac97b47b8e5fdd6a1c84eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0842548efb6512bad8962a631486f70a') in 0.032861 seconds
+  Import took 0.034686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Models/CampoGuerra/textures/Material.002_Base_Color(AO).png
+  artifactKey: Guid(ba4c84dcb77c02149b1c503adfbe0ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Material.002_Base_Color(AO).png using Guid(ba4c84dcb77c02149b1c503adfbe0ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7843606a04a5c7c2436806c092cd9ba') in 0.030890 seconds
+  Import took 0.032693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Models/CampoGuerra/textures/RoofTiles_Roughness.png
+  artifactKey: Guid(086cf2baa600220418ada1f1f6306be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/RoofTiles_Roughness.png using Guid(086cf2baa600220418ada1f1f6306be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ec39a57ced76605e0c5877d68b8a3d') in 0.030617 seconds
+  Import took 0.032415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Models/CampoGuerra/textures/Sakura_Branch.png
+  artifactKey: Guid(a3d06febdd01f134b8fe3b397aa24ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Sakura_Branch.png using Guid(a3d06febdd01f134b8fe3b397aa24ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24f95a223fcb2a57c3d65aab9376d51') in 0.019458 seconds
+  Import took 0.021368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Models/CampoGuerra/textures/Material.003_Roughness.png
+  artifactKey: Guid(056ad83cafb828c4298e60859a727aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Material.003_Roughness.png using Guid(056ad83cafb828c4298e60859a727aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dfce1f5de3ccddd779c4599dbcdc9f9') in 0.029201 seconds
+  Import took 0.030972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Models/CampoGuerra/textures/Metal_Metallic.png
+  artifactKey: Guid(5fa0d60fde05c544d9c132b021fc246d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Metal_Metallic.png using Guid(5fa0d60fde05c544d9c132b021fc246d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0e7557a0fbb3695f09b8953a2e55b7') in 0.028505 seconds
+  Import took 0.030334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Models/CampoGuerra/textures/Sheared_Roughness.png
+  artifactKey: Guid(10f5e98e431fb0042b774df5a6b327cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Sheared_Roughness.png using Guid(10f5e98e431fb0042b774df5a6b327cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3443d41e1fa2111fde95b98674a5b5b7') in 0.034479 seconds
+  Import took 0.036310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Models/CampoGuerra/textures/Wood_Base_Color(AO).png
+  artifactKey: Guid(0d181d7e66cdb4548bfd49fad211bfdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Wood_Base_Color(AO).png using Guid(0d181d7e66cdb4548bfd49fad211bfdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34cc34017548bd4d0667ba251212584b') in 0.033592 seconds
+  Import took 0.035363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Models/CampoGuerra/textures/Material_Base_Color(AO).png
+  artifactKey: Guid(aa320c134f51abc4eb54aaa8d669b75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Material_Base_Color(AO).png using Guid(aa320c134f51abc4eb54aaa8d669b75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '931eba6ddbff4f60b93a33b8174b8b70') in 0.031556 seconds
+  Import took 0.033370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Models/CampoGuerra/textures/Material.002_Roughness.png
+  artifactKey: Guid(688bc1645ef992e4181818c7cd5224ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Material.002_Roughness.png using Guid(688bc1645ef992e4181818c7cd5224ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9de423866dfc6acd34fc57acbdd881') in 0.032158 seconds
+  Import took 0.033980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Models/CampoGuerra/textures/Grass_Base_Color(AO).png
+  artifactKey: Guid(61172ea32574a67408c8e3d7796173ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Grass_Base_Color(AO).png using Guid(61172ea32574a67408c8e3d7796173ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a73c60442f166b08388a799fb355f30') in 0.031724 seconds
+  Import took 0.033598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Models/CampoGuerra/textures/Wood_Roughness.png
+  artifactKey: Guid(41c1cda6762e19d458d14145b8911f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Wood_Roughness.png using Guid(41c1cda6762e19d458d14145b8911f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad52fe57625c93b650f019b609fdf7d') in 0.035032 seconds
+  Import took 0.036823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Models/CampoGuerra/textures/Wood.001_Base_Color(AO).png
+  artifactKey: Guid(f437f4321bf3fef46a9a089602531502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Wood.001_Base_Color(AO).png using Guid(f437f4321bf3fef46a9a089602531502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7a50714ee80a06578f4807e611fa0f') in 0.033765 seconds
+  Import took 0.035541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Models/CampoGuerra/textures/Wood_Height.png
+  artifactKey: Guid(4c42e73e67da2ec42b838d30c4f165a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Wood_Height.png using Guid(4c42e73e67da2ec42b838d30c4f165a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af906ee5b64b53a19d0ca11535405f4') in 0.031808 seconds
+  Import took 0.033678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Models/CampoGuerra/textures/Bark_Roughness.png
+  artifactKey: Guid(727bb46bf300ef0408e39ccf6403d12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Bark_Roughness.png using Guid(727bb46bf300ef0408e39ccf6403d12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7397fc47de33a0e50a68a1b2e05ec4c') in 0.028984 seconds
+  Import took 0.030838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Models/CampoGuerra/textures/Material_Normal.png
+  artifactKey: Guid(216c048e92cb79b4c9f69160c43840a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Material_Normal.png using Guid(216c048e92cb79b4c9f69160c43840a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd099443c9c25c1f9121783bb2aa144') in 0.029780 seconds
+  Import took 0.031867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Models/CampoGuerra/textures/Bark_Roughness.png
+  artifactKey: Guid(727bb46bf300ef0408e39ccf6403d12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Bark_Roughness.png using Guid(727bb46bf300ef0408e39ccf6403d12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7397fc47de33a0e50a68a1b2e05ec4c') in 0.024904 seconds
+  Import took 0.026652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Models/CampoGuerra/textures/Grass_Normal_OpenGL.png
+  artifactKey: Guid(f356503908de4cb43921a9dac6a19e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Grass_Normal_OpenGL.png using Guid(f356503908de4cb43921a9dac6a19e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db7595f418d9e9372eb4e96caed5c27') in 0.028658 seconds
+  Import took 0.030422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Models/CampoGuerra/textures/Metal_Roughness.png
+  artifactKey: Guid(1224379d661fea1499bf190f062e4040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Metal_Roughness.png using Guid(1224379d661fea1499bf190f062e4040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8a41b49568c075e2464aa743c2b3b4') in 0.028940 seconds
+  Import took 0.030736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Models/CampoGuerra/textures/DefaultMaterial_Base_Color(AO).png
+  artifactKey: Guid(f3daed214a163b248aeeafe483828037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/DefaultMaterial_Base_Color(AO).png using Guid(f3daed214a163b248aeeafe483828037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f02c1863b17521e1657ffb3f3bc10a8') in 0.029550 seconds
+  Import took 0.031576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Models/CampoGuerra/textures/Metal_Base_Color(AO).png
+  artifactKey: Guid(083d0ebfa8224cf47b7a08a1ca650f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Metal_Base_Color(AO).png using Guid(083d0ebfa8224cf47b7a08a1ca650f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38c2fc162f09b88751cb0081e4ada80') in 0.029792 seconds
+  Import took 0.031583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Models/CampoGuerra/textures/Wood_Normal.png
+  artifactKey: Guid(8ddc656d620def842ac9aafabbc2834c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Wood_Normal.png using Guid(8ddc656d620def842ac9aafabbc2834c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd189787349455841184e8cf96c9d71d') in 0.029595 seconds
+  Import took 0.031418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Models/CampoGuerra/textures/Material_Roughness.png
+  artifactKey: Guid(ed00acfefc7512f47bdfe99d1f79118b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Material_Roughness.png using Guid(ed00acfefc7512f47bdfe99d1f79118b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d03154d1a24cec3f7adfb71d91c194') in 0.031055 seconds
+  Import took 0.032857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Models/CampoGuerra/textures/Sheared_Wood_Roughness.png
+  artifactKey: Guid(68eb99d1c4d89d94c81a1e7b8fb688a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Sheared_Wood_Roughness.png using Guid(68eb99d1c4d89d94c81a1e7b8fb688a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a06efa6bf20b2c31aeb718db92029c1') in 0.028150 seconds
+  Import took 0.029955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Models/CampoGuerra/textures/Material.002_Normal_OpenGL.png
+  artifactKey: Guid(ab6f0d65850dadf458ba22260800aff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Material.002_Normal_OpenGL.png using Guid(ab6f0d65850dadf458ba22260800aff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e344d922f6a098820d7d1332487d92') in 0.028817 seconds
+  Import took 0.030775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Models/CampoGuerra/textures/Water_Base_Color(AO).png
+  artifactKey: Guid(083e66f4aaf9c1e45940adebbdec0331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Water_Base_Color(AO).png using Guid(083e66f4aaf9c1e45940adebbdec0331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6540635823aebcf7771d3e4b19959bc7') in 0.030993 seconds
+  Import took 0.032833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Models/CampoGuerra/textures/Material.001_Base_Color(AO).png
+  artifactKey: Guid(df5db086cbda85043b6b648f93e93795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Material.001_Base_Color(AO).png using Guid(df5db086cbda85043b6b648f93e93795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57de0fd4a4441e00a4f11d4e54e1b855') in 0.031097 seconds
+  Import took 0.032956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Models/CampoGuerra/textures/Other_Wood.001_Base_Color(AO).png
+  artifactKey: Guid(f69790ec18657314f8f7f0f0239e0ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Other_Wood.001_Base_Color(AO).png using Guid(f69790ec18657314f8f7f0f0239e0ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e4d99e5e19b6ca5ed3423d050d8b58') in 0.029848 seconds
+  Import took 0.031767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Models/CampoGuerra/textures/Material.001_Roughness.png
+  artifactKey: Guid(b2dee92ac988f3249b63465b6ab1091e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Material.001_Roughness.png using Guid(b2dee92ac988f3249b63465b6ab1091e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d9a1f592ae9f93c56a2a57b28aee18') in 0.030944 seconds
+  Import took 0.032799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Models/CampoGuerra/textures/Metal_Normal.png
+  artifactKey: Guid(05c6f72f057f47242adff8fbc7a4de4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Metal_Normal.png using Guid(05c6f72f057f47242adff8fbc7a4de4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4969c8e9a78a0edc36e6aca1bc17f20e') in 0.030008 seconds
+  Import took 0.031929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Models/CampoGuerra/textures/Sheared_Wood_Base_Color(AO).png
+  artifactKey: Guid(5905b42fd4a86c141b5aeeef4e41eb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Sheared_Wood_Base_Color(AO).png using Guid(5905b42fd4a86c141b5aeeef4e41eb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb0b34645e2dd0051f5dd7ecc90944f') in 0.028972 seconds
+  Import took 0.030808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Models/CampoGuerra/textures/RoofTiles.001_Roughness.png
+  artifactKey: Guid(e4b9b9722ffcd3d488725a9058c5516f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/RoofTiles.001_Roughness.png using Guid(e4b9b9722ffcd3d488725a9058c5516f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd156d2c4fed45d29431fbd485d1f7d') in 0.029229 seconds
+  Import took 0.031035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Models/CampoGuerra/textures/Material.003_Base_Color(AO).png
+  artifactKey: Guid(74b3fab30dc8ba84b9a2a618ce2ab87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Material.003_Base_Color(AO).png using Guid(74b3fab30dc8ba84b9a2a618ce2ab87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae4185aec5d78d05ad88bd9be657e3a') in 0.032292 seconds
+  Import took 0.034122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Models/CampoGuerra/textures/RoofTiles.001_Base_Color(AO).png
+  artifactKey: Guid(df4f8042377848f45b7e39c4bcba50a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/RoofTiles.001_Base_Color(AO).png using Guid(df4f8042377848f45b7e39c4bcba50a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525df5d97bcfe7e1e2dc1c93e591f7c7') in 0.032376 seconds
+  Import took 0.034148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Models/CampoGuerra/textures/Wood_Metallic.png
+  artifactKey: Guid(5fe40b935c670054388dd27478d7e466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Wood_Metallic.png using Guid(5fe40b935c670054388dd27478d7e466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0406599b217d526ad704ba60a0b93e8a') in 0.029397 seconds
+  Import took 0.031166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Models/CampoGuerra/textures/Wood.001_Roughness.png
+  artifactKey: Guid(c8b165a40a0178a4f85b83daab3838ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Wood.001_Roughness.png using Guid(c8b165a40a0178a4f85b83daab3838ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c37bbc80836b5b483482f8651af10ce') in 0.029635 seconds
+  Import took 0.031583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Models/CampoGuerra/textures/Sheared_Base_Color(AO).png
+  artifactKey: Guid(5d5bde9d7da594047941df0cc6665582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Sheared_Base_Color(AO).png using Guid(5d5bde9d7da594047941df0cc6665582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87540063e5c659dd9b91da34b361f285') in 0.029175 seconds
+  Import took 0.031158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Models/CampoGuerra/textures/Other_Wood_Base_Color(AO).png
+  artifactKey: Guid(7cadf211ed27f754088db7eb4a35b40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Other_Wood_Base_Color(AO).png using Guid(7cadf211ed27f754088db7eb4a35b40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5be6805c417897c90777a26003f5480') in 0.030840 seconds
+  Import took 0.032901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Models/CampoGuerra/textures/Grass_Roughness.png
+  artifactKey: Guid(b87c0e8deaeaea14195c7de1d68286de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Grass_Roughness.png using Guid(b87c0e8deaeaea14195c7de1d68286de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d34221894a8052ccd43419cf391b317') in 0.033387 seconds
+  Import took 0.035253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Models/CampoGuerra/textures/Material.001_Normal.png
+  artifactKey: Guid(1145ce5c394cd6f49bfb389c5a6d996b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Material.001_Normal.png using Guid(1145ce5c394cd6f49bfb389c5a6d996b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332429206e58f02aca631861217c708b') in 0.029016 seconds
+  Import took 0.030858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Models/CampoGuerra/textures/Material_Normal_OpenGL.png
+  artifactKey: Guid(1d521569abd86a6459bc3521ca05543b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Material_Normal_OpenGL.png using Guid(1d521569abd86a6459bc3521ca05543b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3b242fca234a097149400c935c11d0') in 0.032723 seconds
+  Import took 0.034497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Models/CampoGuerra/textures/Other_Wood_Roughness.png
+  artifactKey: Guid(2f040ae030bf0874da75f8916d7a02c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Other_Wood_Roughness.png using Guid(2f040ae030bf0874da75f8916d7a02c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83597ccd9eb7a62190175f55e4c671f') in 0.031195 seconds
+  Import took 0.032988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Models/CampoGuerra/textures/Other_Wood.002_Roughness.png
+  artifactKey: Guid(310b06c6e49dab545855b5ec2d3daed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Other_Wood.002_Roughness.png using Guid(310b06c6e49dab545855b5ec2d3daed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf513447bd622e437e0368832a6f2bd') in 0.030487 seconds
+  Import took 0.032287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Models/CampoGuerra/textures/DefaultMaterial_Roughness.png
+  artifactKey: Guid(4a29432fbcbb9fb4b9cc5f0a6a6222df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/DefaultMaterial_Roughness.png using Guid(4a29432fbcbb9fb4b9cc5f0a6a6222df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94636a881c4c2d23099d7eb9d10ff89c') in 0.030385 seconds
+  Import took 0.032237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Models/CampoGuerra/textures/Other_Wood.002_Base_Color(AO).png
+  artifactKey: Guid(fe4632c7048ba28419016dc569dda7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CampoGuerra/textures/Other_Wood.002_Base_Color(AO).png using Guid(fe4632c7048ba28419016dc569dda7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9618c4bb6fe6a3bb111d48d432a6d3') in 0.030688 seconds
+  Import took 0.032519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.669000 seconds.
+  path: Assets/Scenes/Praia.unity
+  artifactKey: Guid(d47d0bb03b3419946b3072e0541680da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Praia.unity using Guid(d47d0bb03b3419946b3072e0541680da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb89fd22aedba3a88515a19c6bd7c3a9') in 0.001493 seconds
+  Import took 0.003532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005807 seconds.
+  path: Assets/Scenes/Praia.unity
+  artifactKey: Guid(d47d0bb03b3419946b3072e0541680da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Praia.unity using Guid(d47d0bb03b3419946b3072e0541680da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb89fd22aedba3a88515a19c6bd7c3a9') in 0.001225 seconds
+  Import took 0.003039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.869500 seconds.
+  path: Assets/Scenes/Oeste.unity
+  artifactKey: Guid(62e85d5c359062d47be84e60e995e7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Oeste.unity using Guid(62e85d5c359062d47be84e60e995e7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac24dd1d9b7f6acccf29a5da0f2b64bc') in 0.001881 seconds
+  Import took 0.004191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.005777 seconds.
+  path: Assets/Scenes/China.unity
+  artifactKey: Guid(3cfb8ecfcd197ef43a7f6680186fcec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/China.unity using Guid(3cfb8ecfcd197ef43a7f6680186fcec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9d4d476d8c3aa130c651f69e26338d') in 0.001361 seconds
+  Import took 0.003363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.882760 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(902c59e8ccafac44da779ce970214e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(902c59e8ccafac44da779ce970214e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2418c43e679879e20ce7f9bc2a10d3c2') in 0.001316 seconds
+  Import took 0.003231 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001496 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Projects\ComputacaoGrafica\ScenesFinal\Scenes\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Projects\ComputacaoGrafica\ScenesFinal\Scenes\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
+
+(Filename: D:/Projects/ComputacaoGrafica/ScenesFinal/Scenes/Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.660 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 1600 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.5 MB.
+System memory in use after: 89.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2121.
+Total: 1.317800 ms (FindLiveObjects: 0.140400 ms CreateObjectMapping: 0.041700 ms MarkObjects: 1.107100 ms  DeleteObjects: 0.027200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
