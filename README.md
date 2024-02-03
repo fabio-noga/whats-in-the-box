@@ -25,10 +25,10 @@ Try it out for yourself and enjoy the game: [https://fabionoga.itch.io/whats-in-
             <td><a href="https://github.com/raluxu">Rúben Lôpo</a></td>
         </tr>
         <tr>
-            <td>Game menus</td>
-            <td>Animations and components</td>
+            <td>Game menus & animations</td>
+            <td>AR gameplay & components</td>
             <td>Playable scenes</td>
-            <td>Game menus</td>
+            <td>Game menus & animations</td>
         </tr>
     </tbody>
 </table>
